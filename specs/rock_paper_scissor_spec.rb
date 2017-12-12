@@ -41,17 +41,17 @@ class TestGame < MiniTest::Test
 
   def test_game__rock_v_rock
     new_game = Game.new("rock", "rock")
-    assert_equal("Try again!", new_game.result())
+    assert_equal("Play again!", new_game.result())
   end
 
   def test_game__paper_v_paper
     new_game = Game.new("paper", "paper")
-    assert_equal("Try again!", new_game.result())
+    assert_equal("Play again!", new_game.result())
   end
-  
+
   def test_game__scissors_v_scissors
     new_game = Game.new("scissors", "scissors")
-    assert_equal("Try again!", new_game.result())
+    assert_equal("Play again!", new_game.result())
   end
 
 end

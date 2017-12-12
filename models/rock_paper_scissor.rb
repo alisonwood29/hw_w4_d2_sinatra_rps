@@ -22,9 +22,9 @@ class Game
      elsif @player_1 == "scissors" && @player_2 == "paper"
        return "Scissors wins!"
      elsif @player_1 == @player_2
-       return "Try again!"
+       return "Play again!"
      else
-       return "Game over"
+       return "Invalid play"
      end
   end
 
